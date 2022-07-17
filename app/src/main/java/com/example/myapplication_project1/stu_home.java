@@ -1,5 +1,7 @@
 package com.example.myapplication_project1;
 
+import static com.example.myapplication_project1.Constants.TOPIC;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.ArrayList;
 
@@ -21,7 +24,7 @@ public class stu_home extends AppCompatActivity {
     DatabaseReference database;
     myAdapter myadapter;
     ArrayList<Bus> list;
-    @Override
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stu_home);
@@ -37,6 +40,7 @@ public class stu_home extends AppCompatActivity {
         list=new ArrayList<>();
         myadapter=new myAdapter(this,list);
         recyclerView.setAdapter(myadapter);
+        FirebaseMessaging.getInstance().subscribeToTopic(TOPIC);
 
         query.addValueEventListener(new ValueEventListener() {
             @Override

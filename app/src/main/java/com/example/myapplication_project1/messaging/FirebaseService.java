@@ -39,7 +39,7 @@ public class FirebaseService extends FirebaseMessagingService {
         notification = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setContentTitle(remoteMessage.getData().get("no"))
                 .setContentText(remoteMessage.getData().get("upda"))
-                .setSmallIcon(R.drawable.ic_android_black_24dp)
+                .setSmallIcon(R.drawable.ic_baseline_directions_bus_24)
                .setContentIntent(intent1)
                 .build();
 

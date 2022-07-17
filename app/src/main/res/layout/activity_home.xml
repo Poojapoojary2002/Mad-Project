@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/addbus"
     tools:context=".home">
 
 
@@ -11,9 +12,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="201dp"
-        android:layout_marginEnd="120dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="119dp"
+        android:background="@drawable/custom_button"
         android:text="Add  Bus Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,11 +26,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="118dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="38dp"
         android:layout_marginEnd="119dp"
+        android:background="@drawable/custom_button"
         android:text="View Bus Details"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -36,10 +38,11 @@
         android:id="@+id/send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="59dp"
-        android:layout_marginEnd="180dp"
-        android:text="Send"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/custom_button"
+        android:text=" Send Message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />

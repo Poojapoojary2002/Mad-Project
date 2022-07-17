@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/drawable/custom_button.xml" value="0.173" />
+        <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/drawable/edittext.xml" value="0.1" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_addbus.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_admin_login.xml" value="0.264" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_admin_reg.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_admin_reg2.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_display.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/pooja/AndroidStudioProjects/MyApplication_project12/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
